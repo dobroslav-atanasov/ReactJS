@@ -1,5 +1,5 @@
 <p align="center">
-	<a href="https://reactjs.org/"><img src="https://miro.medium.com/max/3600/1*HSisLuifMO6KbLfPOKtLow.jpeg" alt="Rea" width="300" align="center"></a>
+	<a href="https://reactjs.org/"><img src="https://miro.medium.com/max/3600/1*HSisLuifMO6KbLfPOKtLow.jpeg" alt="Rea" width="1000" align="center"></a>
 <p>
 
 ## Course: [ReactJS](https://softuni.bg/trainings/2570/reactjs-october-2019)
