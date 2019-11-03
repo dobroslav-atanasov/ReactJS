@@ -6,9 +6,18 @@
 SoftUni course ReactJS - October 2019: All tasks with their solutions.
 
 ## Course content:
-- Intro to Node.js
-- Node.js Streams and Utilities
-- Express.js and Templating
-- NoSQL and MongoDB 
-- Session and Authentication
-- Validation and Error Handling
+- Intro ot React and JSX
+- Components: Basic idea
+- Components: Deep dive
+- Routing
+- Forms
+- React Hooks
+- Advanced techniques
+
+## Repository content:
+
+> **Homeworks**
+
+№   |Tasks							|Solution																																													
+:--:|-------------------------------|:----------------------------------------------------------------------------------------------------
+1	|Online shop					|[Project](https://github.com/dobroslav-atanasov/ReactJS/tree/master/online-shop)		
