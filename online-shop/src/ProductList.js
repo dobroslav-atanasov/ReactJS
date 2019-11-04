@@ -5,6 +5,12 @@ import './ProductList.css'
 class ProductList extends React.Component {
     constructor(props) {
         super(props)
+        this.state = { count: 0 }
+        this.updateCount = this.updateCount.bind(this)
+    }
+
+    updateCount() {
+        this.setState(() => this.state.count++);
     }
 
     render() {
@@ -12,6 +18,7 @@ class ProductList extends React.Component {
         return (
             <div className="container">
                 <Product product={product} />
+                <button onClick={this.updateCount}>Clicked {this.state.count} times!</button>
             </div>
         )
     }

@@ -9,9 +9,9 @@ const Product = (props) => {
                 <span className="product-title">{props.product.title}</span>
                 <p className="product-price">
                     Price:
-        <span>
+                    <span>
                         {props.product.price}$
-        </span>
+                    </span>
                 </p>
             </div>
         </div>
