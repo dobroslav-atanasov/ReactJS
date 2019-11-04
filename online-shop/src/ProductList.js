@@ -18,7 +18,7 @@ class ProductList extends React.Component {
         return (
             <div className="container">
                 <Product product={product} />
-                <button onClick={this.updateCount}>Clicked {this.state.count} times!</button>
+                <button className="btn btn-success" onClick={this.updateCount}>Clicked {this.state.count} times!</button>
             </div>
         )
     }
