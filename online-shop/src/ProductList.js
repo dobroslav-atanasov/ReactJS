@@ -1,5 +1,6 @@
-import React from 'react'
+import React, { Fragment } from 'react'
 import Product from './components/product/Product'
+import Header from './components/header/Header'
 import './ProductList.css'
 
 class ProductList extends React.Component {
@@ -14,12 +15,17 @@ class ProductList extends React.Component {
     }
 
     render() {
-        const { product } = this.props
+        const { products } = this.props
+        const prods = products.map((product) => <Product key={product.id} product={product}/>)
         return (
-            <div className="container">
-                <Product product={product} />
-                <button className="btn btn-info" onClick={this.updateCount}>Clicked {this.state.count} times!</button>
-            </div>
+            <Fragment>
+                <Header></Header>
+                <div className="container">
+                    {prods}
+                    {/* <Product products={products} /> */}
+                    {/* <button className="btn btn-info" onClick={this.updateCount}>Clicked {this.state.count} times!</button> */}
+                </div>
+            </Fragment>
         )
     }
 }
