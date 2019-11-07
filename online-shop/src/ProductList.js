@@ -1,7 +1,7 @@
 import React, { Fragment } from 'react'
 import Product from './components/product/Product'
 import Header from './components/header/Header'
-import './ProductList.css'
+import styles from './ProductList.module.css'
 
 class ProductList extends React.Component {
     constructor(props) {
@@ -16,11 +16,11 @@ class ProductList extends React.Component {
 
     render() {
         const { products } = this.props
-        const prods = products.map((product) => <Product key={product.id} product={product}/>)
+        const prods = products.map((product) => <Product key={product.id} product={product} />)
         return (
             <Fragment>
                 <Header></Header>
-                <div className="container">
+                <div className={styles.container}>
                     {prods}
                     {/* <Product products={products} /> */}
                     {/* <button className="btn btn-info" onClick={this.updateCount}>Clicked {this.state.count} times!</button> */}

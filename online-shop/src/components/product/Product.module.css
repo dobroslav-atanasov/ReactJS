@@ -1,4 +1,4 @@
-.container {
+  .container {
     text-align: center;
     background-color: #282c34;
     min-height: 100vh;
@@ -10,35 +10,35 @@
     color: white;
   }
   
-  .product-image {
+  .productImage {
     width: 200px;
   }
   
-  .product-tile {
+  .productTile {
     background: #eee;
     color: #282c34;
     padding: 0 15px 20px;;
   }
   
-  .product-brand {
+  .productBrand {
     display: block;
     font-size: 14px;
     text-align: left;
   }
   
-  .product-title {
+  .productTitle {
     display: block;
     font-size: 17px;
     text-align: left;
     margin: 10px 0;
   }
   
-  .product-price {
+  .productPrice {
     font-size: 14px;
     text-align: left;
   }
   
-  .product-price span {
+  .productPrice span {
     margin-left: 5px;
     color: red;
     font-size: 17px;

@@ -1,13 +1,14 @@
 import React from 'react'
+import styles from './Product.module.css'
 
 const Product = (props) => {
     return (
-        <div className="product-tile">
-            <img className="product-image" src={props.product.image} alt={props.product.title} />
+        <div className={styles.productTile}>
+            <img className={styles.productImage} src={props.product.image} alt={props.product.title} />
             <div>
-                <span className="product-brand">{props.product.brand}</span>
-                <span className="product-title">{props.product.title}</span>
-                <p className="product-price">
+                <span className={styles.productBrand}>{props.product.brand}</span>
+                <span className={styles.productTitle}>{props.product.title}</span>
+                <p className={styles.productPrice}>
                     Price:
                     <span>
                         {props.product.price}$

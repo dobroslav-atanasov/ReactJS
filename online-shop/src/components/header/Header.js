@@ -1,5 +1,5 @@
 import React from 'react'
-import './Header.css'
+import styles from './Header.module.css'
 
 class Header extends React.Component {
     state = {
@@ -15,7 +15,7 @@ class Header extends React.Component {
     render() {
         const { searchValue } = this.state
         return (
-            <div className="header-container">
+            <div className={styles.headerContainer}>
                 <span>React course</span>
                 <input value={searchValue} onChange={this.handleChange} placeholder="Search..." />
             </div>
