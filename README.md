@@ -21,3 +21,8 @@ SoftUni course ReactJS - October 2019: All tasks with their solutions.
 №   |Tasks							|Solution																																													
 :--:|-------------------------------|:----------------------------------------------------------------------------------------------------
 1	|Online shop					|[Project](https://github.com/dobroslav-atanasov/ReactJS/tree/master/online-shop)		
+
+> **Workshop**
+|Tasks				|Descriptions																				| Solution																																													
+|-------------------|:-----------------------------------------------------------------------------------------:|:---------------------------------------------------------------------------------------------
+|Origami Platform	|[Description](https://github.com/dobroslav-atanasov/ReactJS/tree/master/Resources)			|[Project](https://github.com/dobroslav-atanasov/ReactJS/tree/master/Origami-Platform)		
