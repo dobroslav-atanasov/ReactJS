@@ -21,8 +21,8 @@ import { Navbar, Nav, NavDropdown, Form, FormControl, Button } from 'react-boots
                 //     <span>React course</span>
                 //     <input value={searchValue} onChange={this.handleChange} placeholder="Search..." />
                 // </div>
-                <Navbar bg="light" expand="lg">
-                    <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
+                <Navbar bg="success" expand="lg">
+                    <Navbar.Brand href="#home">Online shop</Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="mr-auto">
