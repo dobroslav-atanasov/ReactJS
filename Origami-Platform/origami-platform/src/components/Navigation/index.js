@@ -5,15 +5,13 @@ import Link from '../Link';
 function Navigation() {
     return <nav className="Navigation">
         <ul>
-            <Link url="#">
+            <Link url="/">
                 <img src="white-origami-bird.png" alt="white-origami-bird" />
             </Link>
-            <Link url="#">Go to 1</Link>
-            <Link url="#">Go to 2</Link>
-            <Link url="#">Go to 3</Link>
-            <Link url="#">Go to 4</Link>
-            <Link url="#">Go to 5</Link>
-            <Link url="#">Go to 6</Link>
+            <Link url="/create-post">Post</Link>
+            <Link url="/register">Register</Link>
+            <Link url="/login">Login</Link>
+            <Link url="/profile">Profile</Link>
         </ul>
     </nav>
 };

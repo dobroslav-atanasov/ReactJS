@@ -13,7 +13,7 @@ class Posts extends React.Component {
             .then(posts => {
                 this.setState({ posts });
             });
-    }; 
+    };
 
     render() {
         const { posts } = this.state;
@@ -22,11 +22,5 @@ class Posts extends React.Component {
         </div> : <div>Loading...</div>;
     };
 };
-
-// function Posts() {
-//     return <div className="Posts">
-//         <Post imageUrl="blue-origami-bird.png" imageAlt="blue-origami-bird" author="Dobri">Test post</Post>
-//     </div>
-// };
 
 export default Posts;
