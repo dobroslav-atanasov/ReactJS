@@ -18,7 +18,7 @@ class Posts extends React.Component {
     render() {
         const { posts } = this.state;
         return posts ? <div className="Posts">
-            {posts.map((post) => <Post key={post.id} imageUrl="blue-origami-bird.png" imageAlt="blue-origami-bird" author={post.userId}>{post.body}</Post>)}
+            {posts.map((post) => <Post key={post.id} imageUrl="blue-origami-bird.png" imageAlt="blue-origami-bird" author={post.author.username}>{post.description}</Post>)}
         </div> : <div>Loading...</div>;
     };
 };
